@@ -14,6 +14,7 @@
 
 @implementation G21RootViewController {
     UIImageView *myImageView;
+    int test;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
