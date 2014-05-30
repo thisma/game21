@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A5422B619383CDD0038BD36 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5422B519383CDD0038BD36 /* CoreMotion.framework */; };
 		1AF7C241192DA294003FE4D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF7C240192DA294003FE4D4 /* Foundation.framework */; };
 		1AF7C243192DA294003FE4D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF7C242192DA294003FE4D4 /* CoreGraphics.framework */; };
 		1AF7C245192DA294003FE4D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF7C244192DA294003FE4D4 /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A5422B519383CDD0038BD36 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		1AF7C23D192DA294003FE4D4 /* Game21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game21.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF7C240192DA294003FE4D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1AF7C242192DA294003FE4D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A5422B619383CDD0038BD36 /* CoreMotion.framework in Frameworks */,
 				1AF7C243192DA294003FE4D4 /* CoreGraphics.framework in Frameworks */,
 				1AF7C245192DA294003FE4D4 /* UIKit.framework in Frameworks */,
 				1AF7C241192DA294003FE4D4 /* Foundation.framework in Frameworks */,
@@ -103,6 +106,7 @@
 		1AF7C23F192DA294003FE4D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1A5422B519383CDD0038BD36 /* CoreMotion.framework */,
 				1AF7C240192DA294003FE4D4 /* Foundation.framework */,
 				1AF7C242192DA294003FE4D4 /* CoreGraphics.framework */,
 				1AF7C244192DA294003FE4D4 /* UIKit.framework */,
@@ -452,6 +456,7 @@
 				1AF7C26B192DA294003FE4D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AF7C26C192DA294003FE4D4 /* Build configuration list for PBXNativeTarget "Game21Tests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +465,7 @@
 				1AF7C26E192DA294003FE4D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
