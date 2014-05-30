@@ -21,8 +21,8 @@
 		1AF7C264192DA294003FE4D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AF7C262192DA294003FE4D4 /* InfoPlist.strings */; };
 		1AF7C266192DA294003FE4D4 /* Game21Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7C265192DA294003FE4D4 /* Game21Tests.m */; };
 		1AF7C272192DA9DD003FE4D4 /* G21RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7C270192DA9DD003FE4D4 /* G21RootViewController.m */; };
-		1AF7C273192DA9DD003FE4D4 /* G21RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AF7C271192DA9DD003FE4D4 /* G21RootViewController.xib */; };
 		1AF7C277192DAD5D003FE4D4 /* Screen Shot 2014-04-05.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF7C276192DAD5D003FE4D4 /* Screen Shot 2014-04-05.png */; };
+		30E686F11938402A009F98BD /* G21RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E686F01938402A009F98BD /* G21RootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		1AF7C265192DA294003FE4D4 /* Game21Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Game21Tests.m; sourceTree = "<group>"; };
 		1AF7C26F192DA9DD003FE4D4 /* G21RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G21RootViewController.h; sourceTree = "<group>"; };
 		1AF7C270192DA9DD003FE4D4 /* G21RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G21RootViewController.m; sourceTree = "<group>"; };
-		1AF7C271192DA9DD003FE4D4 /* G21RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = G21RootViewController.xib; sourceTree = "<group>"; };
 		1AF7C276192DAD5D003FE4D4 /* Screen Shot 2014-04-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-04-05.png"; sourceTree = "<group>"; };
+		30E686F01938402A009F98BD /* G21RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = G21RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +122,8 @@
 				1AF7C250192DA294003FE4D4 /* G21AppDelegate.m */,
 				1AF7C26F192DA9DD003FE4D4 /* G21RootViewController.h */,
 				1AF7C270192DA9DD003FE4D4 /* G21RootViewController.m */,
-				1AF7C271192DA9DD003FE4D4 /* G21RootViewController.xib */,
 				1AF7C276192DAD5D003FE4D4 /* Screen Shot 2014-04-05.png */,
+				30E686F01938402A009F98BD /* G21RootViewController.xib */,
 				1AF7C252192DA294003FE4D4 /* Images.xcassets */,
 				1AF7C247192DA294003FE4D4 /* Supporting Files */,
 			);
@@ -237,8 +237,8 @@
 			files = (
 				1AF7C24B192DA294003FE4D4 /* InfoPlist.strings in Resources */,
 				1AF7C277192DAD5D003FE4D4 /* Screen Shot 2014-04-05.png in Resources */,
-				1AF7C273192DA9DD003FE4D4 /* G21RootViewController.xib in Resources */,
 				1AF7C253192DA294003FE4D4 /* Images.xcassets in Resources */,
+				30E686F11938402A009F98BD /* G21RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +379,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Game21/Game21-Prefix.pch";
 				INFOPLIST_FILE = "Game21/Game21-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
@@ -394,7 +394,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Game21/Game21-Prefix.pch";
 				INFOPLIST_FILE = "Game21/Game21-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
