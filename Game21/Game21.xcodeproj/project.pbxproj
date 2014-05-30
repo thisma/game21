@@ -19,6 +19,9 @@
 		1AF7C25C192DA294003FE4D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF7C244192DA294003FE4D4 /* UIKit.framework */; };
 		1AF7C264192DA294003FE4D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AF7C262192DA294003FE4D4 /* InfoPlist.strings */; };
 		1AF7C266192DA294003FE4D4 /* Game21Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7C265192DA294003FE4D4 /* Game21Tests.m */; };
+		1AF7C272192DA9DD003FE4D4 /* G21RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7C270192DA9DD003FE4D4 /* G21RootViewController.m */; };
+		1AF7C273192DA9DD003FE4D4 /* G21RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AF7C271192DA9DD003FE4D4 /* G21RootViewController.xib */; };
+		1AF7C277192DAD5D003FE4D4 /* Screen Shot 2014-04-05.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF7C276192DAD5D003FE4D4 /* Screen Shot 2014-04-05.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,10 @@
 		1AF7C261192DA294003FE4D4 /* Game21Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Game21Tests-Info.plist"; sourceTree = "<group>"; };
 		1AF7C263192DA294003FE4D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1AF7C265192DA294003FE4D4 /* Game21Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Game21Tests.m; sourceTree = "<group>"; };
+		1AF7C26F192DA9DD003FE4D4 /* G21RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G21RootViewController.h; sourceTree = "<group>"; };
+		1AF7C270192DA9DD003FE4D4 /* G21RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G21RootViewController.m; sourceTree = "<group>"; };
+		1AF7C271192DA9DD003FE4D4 /* G21RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = G21RootViewController.xib; sourceTree = "<group>"; };
+		1AF7C276192DAD5D003FE4D4 /* Screen Shot 2014-04-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-04-05.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +116,10 @@
 			children = (
 				1AF7C24F192DA294003FE4D4 /* G21AppDelegate.h */,
 				1AF7C250192DA294003FE4D4 /* G21AppDelegate.m */,
+				1AF7C26F192DA9DD003FE4D4 /* G21RootViewController.h */,
+				1AF7C270192DA9DD003FE4D4 /* G21RootViewController.m */,
+				1AF7C271192DA9DD003FE4D4 /* G21RootViewController.xib */,
+				1AF7C276192DAD5D003FE4D4 /* Screen Shot 2014-04-05.png */,
 				1AF7C252192DA294003FE4D4 /* Images.xcassets */,
 				1AF7C247192DA294003FE4D4 /* Supporting Files */,
 			);
@@ -221,6 +232,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AF7C24B192DA294003FE4D4 /* InfoPlist.strings in Resources */,
+				1AF7C277192DAD5D003FE4D4 /* Screen Shot 2014-04-05.png in Resources */,
+				1AF7C273192DA9DD003FE4D4 /* G21RootViewController.xib in Resources */,
 				1AF7C253192DA294003FE4D4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +255,7 @@
 			files = (
 				1AF7C24D192DA294003FE4D4 /* main.m in Sources */,
 				1AF7C251192DA294003FE4D4 /* G21AppDelegate.m in Sources */,
+				1AF7C272192DA9DD003FE4D4 /* G21RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
