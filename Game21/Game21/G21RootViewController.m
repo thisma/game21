@@ -8,13 +8,19 @@
 
 #import "G21RootViewController.h"
 
+#import <CoreMotion/CoreMotion.h>
 @interface G21RootViewController ()
 
 @end
 
 @implementation G21RootViewController {
     UIImageView *myImageView;
+    UIImageView *targetImageView;
+    CMMotionManager *myMotionManager;
     int test;
+    CGPoint myImageViewPoint;
+    CGPoint targetPoint;
+    NSTimer *gameTimer;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -23,9 +29,22 @@
     if (self) {
         // Custom initialization
         myImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Screen Shot 2014-04-05"]];
+        targetImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Screen Shot 2014-04-05"]];
         [self.view addSubview:myImageView];
+        [self.view addSubview:targetImageView];
+        myMotionManager = [[CMMotionManager alloc] init];
+        [myMotionManager startAccelerometerUpdates];
+        gameTimer = [NSTimer scheduledTimerWithTimeInterval:0.016 target:self selector:@selector(updateGameView) userInfo:nil repeats:YES];
+        
     }
     return self;
+}
+
+- (void)relocateTarget
+{
+    targetPoint.x = rand() % (int) self.view.frame.size.width;
+    targetPoint.y = rand() % (int) self.view.frame.size.height;
+    targetImageView.center = targetPoint;
 }
 
 - (void)viewDidLoad
@@ -33,9 +52,22 @@
     [super viewDidLoad];
     
     // Do any additional setup after loading the view from its nib.
-    [UIView animateWithDuration:4.0 animations:^{
-        myImageView.center = CGPointMake(100.0, 100.0);
-    }];
+    myImageViewPoint.x = 500;
+    myImageViewPoint.y = 500;
+    myImageView.center = myImageViewPoint;
+    
+    [self relocateTarget];
+    
+    /* [UIView animateWithDuration:4.0 animations:^{
+     myImageView.center = CGPointMake(100.0, 100.0);
+     }];
+     */
+}
+
+- (void)updateGameView {
+    myImageViewPoint.x += myMotionManager.accelerometerData.acceleration.x;
+    myImageViewPoint.y -= myMotionManager.accelerometerData.acceleration.y;
+    myImageView.center = myImageViewPoint;
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
