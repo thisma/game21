@@ -56,6 +56,7 @@
     myImageViewPoint.y = 500;
     myImageView.center = myImageViewPoint;
     
+    srand(time(NULL));
     [self relocateTarget];
     
     /* [UIView animateWithDuration:4.0 animations:^{
