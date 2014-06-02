@@ -11,6 +11,8 @@
 #import <CoreMotion/CoreMotion.h>
 @interface G21RootViewController ()
 
+@property IBOutlet UILabel *scoreLabel;
+
 @end
 
 @implementation G21RootViewController {
