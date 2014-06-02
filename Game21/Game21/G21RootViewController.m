@@ -66,9 +66,16 @@
 }
 
 - (void)updateGameView {
+    //Move myImage based on the screen tilt
     myImageViewPoint.x += myMotionManager.accelerometerData.acceleration.x;
     myImageViewPoint.y -= myMotionManager.accelerometerData.acceleration.y;
     myImageView.center = myImageViewPoint;
+    
+    //check to see if myImage has collided with target
+    if (CGRectIntersectsRect(myImageView.frame, targetImageView.frame)){
+        [self relocateTarget];
+    }
+    
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
