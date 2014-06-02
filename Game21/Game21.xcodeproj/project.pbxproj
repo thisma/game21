@@ -23,7 +23,6 @@
 		1AF7C272192DA9DD003FE4D4 /* G21RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7C270192DA9DD003FE4D4 /* G21RootViewController.m */; };
 		1AF87CFF193CC969009DFE22 /* PurpleBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF87CFD193CC969009DFE22 /* PurpleBall.png */; };
 		1AF87D00193CC969009DFE22 /* PurpleBall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF87CFE193CC969009DFE22 /* PurpleBall@2x.png */; };
-		1AF87D04193CC9D4009DFE22 /* Screen Shot 2014-04-05.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF87D03193CC9D4009DFE22 /* Screen Shot 2014-04-05.png */; };
 		30E686F11938402A009F98BD /* G21RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E686F01938402A009F98BD /* G21RootViewController.xib */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +58,6 @@
 		1AF7C270192DA9DD003FE4D4 /* G21RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G21RootViewController.m; sourceTree = "<group>"; };
 		1AF87CFD193CC969009DFE22 /* PurpleBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PurpleBall.png; sourceTree = "<group>"; };
 		1AF87CFE193CC969009DFE22 /* PurpleBall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PurpleBall@2x.png"; sourceTree = "<group>"; };
-		1AF87D03193CC9D4009DFE22 /* Screen Shot 2014-04-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-04-05.png"; sourceTree = "<group>"; };
 		30E686F01938402A009F98BD /* G21RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = G21RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,7 +124,6 @@
 				1AF7C250192DA294003FE4D4 /* G21AppDelegate.m */,
 				1AF7C26F192DA9DD003FE4D4 /* G21RootViewController.h */,
 				1AF7C270192DA9DD003FE4D4 /* G21RootViewController.m */,
-				1AF87D03193CC9D4009DFE22 /* Screen Shot 2014-04-05.png */,
 				1AF87CFD193CC969009DFE22 /* PurpleBall.png */,
 				1AF87CFE193CC969009DFE22 /* PurpleBall@2x.png */,
 				30E686F01938402A009F98BD /* G21RootViewController.xib */,
@@ -242,7 +239,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AF7C24B192DA294003FE4D4 /* InfoPlist.strings in Resources */,
-				1AF87D04193CC9D4009DFE22 /* Screen Shot 2014-04-05.png in Resources */,
 				1AF87CFF193CC969009DFE22 /* PurpleBall.png in Resources */,
 				1AF7C253192DA294003FE4D4 /* Images.xcassets in Resources */,
 				30E686F11938402A009F98BD /* G21RootViewController.xib in Resources */,

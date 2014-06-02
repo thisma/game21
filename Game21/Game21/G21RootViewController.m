@@ -28,8 +28,8 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        myImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Screen Shot 2014-04-05"]];
-        targetImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Screen Shot 2014-04-05"]];
+        myImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"PurpleBall"]];
+        targetImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"PurpleBall"]];
         [self.view addSubview:myImageView];
         [self.view addSubview:targetImageView];
         myMotionManager = [[CMMotionManager alloc] init];
