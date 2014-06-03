@@ -37,7 +37,6 @@
         myMotionManager = [[CMMotionManager alloc] init];
         [myMotionManager startAccelerometerUpdates];
         gameTimer = [NSTimer scheduledTimerWithTimeInterval:0.016 target:self selector:@selector(updateGameView) userInfo:nil repeats:YES];
-        [NSString str]
         
     }
     return self;
